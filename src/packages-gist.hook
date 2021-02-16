@@ -1,0 +1,15 @@
+# Packages Gist
+# Keeps a list of installed packages in a Gist at your GitHub account.
+
+Operation = Install
+Operation = Remove
+Operation = Upgrade
+Type = Package
+Target = *
+[Action]
+Description = Update gist with all installed pacman packages.
+When = PostTransaction
+Depends = gist
+Depends = pacman
+Depends = bash
+Exec = packages-gist

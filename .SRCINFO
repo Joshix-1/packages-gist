@@ -1,0 +1,14 @@
+pkgbase = packages-gist
+pkgname = packages-gist
+pkgdesc = Keeps lists of installed packages in a Gist at your GitHub account
+pkgver = 1.0
+pkgrel = 1
+url = https://github.com/Joshix-1/packages-gist
+arch = x86_64
+arch = i686
+license = GPL
+makedepends = git
+depends = pacman>=5.0
+depends = gist>=4.5.0
+source = pacmanity::git+https://github.com/Joshix-1/packages-gist.git
+md5sums = SKIP
